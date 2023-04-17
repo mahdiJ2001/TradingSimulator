@@ -48,8 +48,8 @@ return flux ;
 istream& operator>> (istream& flux, PrixJournalier& pj){
 
 flux>>pj.dateaction;
-char nomaction[15];
-flux.getline(nomaction,15,'\n');
+char nomaction[100];
+flux.getline(nomaction,100,';');
 pj.action=nomaction;
 flux>>pj.prix;
 
