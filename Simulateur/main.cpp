@@ -9,13 +9,15 @@ int main()
 
     PersistancePrixJournaliers extract ;
     vector<PrixJournalier> historique ;
-    int i=0;
+
 
     historique=extract.lirePrixJournaliersDUnFichier("prices_simple.csv");
-    while(i<historique.size()){
-        cout<<historique.at(i);
-        i++;
-    }
+
+    for(int i=0;i<historique.size();i++)
+        {
+        cout<<historique.at(i)<<endl;
+        }
+
 
     return 0 ;
 }

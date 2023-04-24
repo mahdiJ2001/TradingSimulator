@@ -11,6 +11,7 @@ class date {
 	public:
 		date(){};
 		date(int jj,int mm,int aa);
+		~date(){};
 		int getjour() const;
 		int getmois() const;
 		int getannee() const;
@@ -86,6 +87,8 @@ int date::nbjoursmois(int mm,int aa ){    //NOMBRE DE JOURS DANS UN MOIS
         case 11:
             return 30;
             break ;
+        default:
+            return 0;
     }
 }
 
@@ -124,7 +127,7 @@ d1.incrementerdate();
 
 ostream& operator<<(ostream& flux, const date& d ){        //OPERATEUR OSTREAM
 
-	flux<<d.jour<<"/"<<d.mois<<"/"<<d.annee<<endl ;
+	flux<<d.jour<<"/"<<d.mois<<"/"<<d.annee ;
 	return flux ;
 }
 
@@ -138,7 +141,7 @@ flux.getline(tab,12,'/');
 jj=atoi(tab);
 flux.getline(tab,12,'/');
 mm=atoi(tab);
-flux.getline(tab,12);
+flux.getline(tab,12,';');
 aa=atoi(tab);
 
 d.jour=jj;

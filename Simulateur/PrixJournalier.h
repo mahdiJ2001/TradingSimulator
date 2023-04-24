@@ -12,6 +12,7 @@ class PrixJournalier {
     public:
         PrixJournalier(){};
         PrixJournalier(date d,string na,double pj):dateaction(d),action(na),prix(pj){};
+        ~PrixJournalier(){};
         date getdate();
         string getaction();
         double getprix();
@@ -38,7 +39,7 @@ return prix ;
 
 ostream& operator<<(ostream& flux , const PrixJournalier& pj){
 
-flux<<"date : "<<pj.dateaction;
+flux<<"date : "<<pj.dateaction<<endl;
 flux<<"action : "<<pj.action<<endl;
 flux<<"prix : "<<pj.prix<<endl;
 return flux ;
