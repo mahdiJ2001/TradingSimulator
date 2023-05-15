@@ -1,0 +1,48 @@
+****
+Type du Trader : Trader Intelligent
+Date Debut: 4/2/2010
+Date Fin: 5/10/2010
+GAIN %  15.328
+GAIN    153.28
+le budget final est 1153.28
+le budget initial est 1000
+NB GET_ACTIONS  363
+NB GET_PRIX_ACTION_JOUR  296
+
+
+****
+Type du Trader : Trader Aleatoire
+Date Debut: 4/1/2010
+Date Fin: 3/2/2010
+GAIN %  -2.57255
+GAIN    -25725.5
+le budget final est 974275
+le budget initial est 1e+06
+NB GET_ACTIONS  56
+NB GET_PRIX_ACTION_JOUR  44
+
+
+****
+Type du Trader : Trader SemiAleatoire
+Date Debut: 4/1/2010
+Date Fin: 5/2/2010
+GAIN %  0.0173333
+GAIN    0.52
+le budget final est 3000.52
+le budget initial est 3000
+NB GET_ACTIONS  24
+NB GET_PRIX_ACTION_JOUR  24
+
+
+****
+Type du Trader : Trader Intelligent
+Date Debut: 4/1/2010
+Date Fin: 5/5/2010
+GAIN %  17.4245
+GAIN    348.49
+le budget final est 2348.49
+le budget initial est 2000
+NB GET_ACTIONS  206
+NB GET_PRIX_ACTION_JOUR  181
+
+
