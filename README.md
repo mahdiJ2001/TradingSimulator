@@ -1,0 +1,2 @@
+# Simulation de Bourse Orientée Objet
+Ce projet est une simulation de bourse qui met en application les principes de l'orientée objet, tels que le polymorphisme, l'encapsulation, l'héritage, l'abstraction.L'utilisateur peut choisir une date de début, une date de fin, un type de trader, et un type de bourse. Une simulation de trading est ensuite effectuée, et à la fin, des statistiques sur les performances du trader et de la simulation sont renvoyées. Les détails de chaque simulation sont enregistrés dans un fichier.
